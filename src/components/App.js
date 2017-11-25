@@ -44,6 +44,13 @@ function mapDispatchToProps(dispatch) {
 	}
 }
 
+/*
+Connect Recap
+connect() connects a React component to the Redux store. 
+mapStateToProps() allows us to specify which state from the store you want passed to your React component. 
+mapDispatchToProps() allows us to bind dispatch to your action creators before they ever hit your component.
+*/
+
 export default connect(
 	mapStateToProps,
 	mapDispatchToProps
